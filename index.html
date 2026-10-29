@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EduApp — поиск образовательных материалов</title>
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img src="assets/images/logo.svg" alt="" width="38" height="38">
+    <div class="brand">EduApp<small>Википедия • Бесплатно • Без регистрации</small></div>
+    <nav aria-label="Разделы">
+      <button id="navSearch" class="active" type="button">Поиск</button>
+      <button id="navFav" type="button">♥ Избранное (<span id="favCount">0</span>)</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="search" class="hero">
+    <div class="hero-text">
+      <h1>Поиск образовательных материалов</h1>
+      <p class="sub">Введите тему — EduApp подберёт статьи Википедии со ссылкой на полный текст.</p>
+      <form id="form" autocomplete="off">
+        <label>Тема или слово
+          <input id="q" type="search" placeholder="например, искусственный интеллект" required>
+        </label>
+        <button id="go" type="submit">Найти</button>
+      </form>
+      <div id="examples" class="chips"></div>
+    </div>
+    <img class="hero-img" src="assets/images/hero.svg" alt="" width="420" height="340">
+  </section>
+
+  <p id="status" role="status" aria-live="polite">Готов к работе</p>
+  <div id="filters" class="chips" hidden></div>
+  <section id="results" aria-label="Результаты"></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Источник данных — Википедия</span>
+    <span>Авторы: Мишненков Артём, Викторов Пётр · группа 2-МД-13</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-label="Лупа со знаком вопроса">
+  <ellipse cx="120" cy="100" rx="105" ry="82" fill="#ECEBFF"/>
+  <ellipse cx="120" cy="184" rx="60" ry="7" fill="#DDE1E6"/>
+  <circle cx="110" cy="88" r="46" fill="#fff" stroke="#5B5CE2" stroke-width="10"/>
+  <path d="M95 78q0-18 17-18t17 15q0 10-12 15-5 3-5 10" fill="none" stroke="#5B5CE2" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="112" cy="115" r="4.5" fill="#5B5CE2"/>
+  <path d="M146 124L186 164" stroke="#F3B83F" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="198" cy="52" r="6" fill="#F3B83F"/>
+  <circle cx="38" cy="140" r="5" fill="#1F9D68"/>
+  <circle cx="34" cy="50" r="4" fill="#5B5CE2"/>
+</svg>

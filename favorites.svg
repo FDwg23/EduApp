@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-label="Сердце и закладка">
+  <circle cx="120" cy="100" r="84" fill="#ECEBFF"/>
+  <ellipse cx="120" cy="184" rx="58" ry="7" fill="#DDE1E6"/>
+  <rect x="52" y="40" width="100" height="120" rx="12" fill="#fff" stroke="#DDE1E6"/>
+  <rect x="68" y="58" width="50" height="8" rx="4" fill="#DDE1E6"/>
+  <rect x="68" y="74" width="70" height="8" rx="4" fill="#DDE1E6"/>
+  <path d="M120 150C62 112 62 62 96 62c14 0 24 9 24 18 0-9 10-18 24-18 34 0 34 50-24 88z" fill="#fff" stroke="#5B5CE2" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M168 34h32v56l-16-11-16 11z" fill="#F3B83F"/>
+  <circle cx="40" cy="64" r="5" fill="#1F9D68"/>
+  <circle cx="204" cy="140" r="5" fill="#5B5CE2"/>
+</svg>
